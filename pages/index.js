@@ -1,5 +1,5 @@
 function Home ( ){
-    return<h1>Olá Renata Souza, você é uma vencedora!! 1</h1>
+    return<h1>Renata Souza, você é uma vencedora, te amo!! Bjs</h1>
 }
 
 export  default Home;
