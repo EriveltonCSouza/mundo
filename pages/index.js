@@ -1,15 +1,16 @@
+import gif from './assets/love-i-love-you-gif.gif';
 
 function Home ( ){
-    const gifurl = "file:///C:/Users/Usuario/Desktop/love-i-love-you-gif.gif";
 
     return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
 
         <h1>Renata Souza, você é uma vencedora, te amo!! Bjs</h1>
         <img
-            src={gifUrl}
+            src={gif}
             alt="Mensagem de amor"
-            style ={{ maxWidth: '100%, boarderRadius }}
+            style ={{ maxWidth: '100%', borderRadius: '10px' }}
+            />
         </div>
     );
 }
