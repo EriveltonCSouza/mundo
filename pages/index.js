@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charSet="UTF-8"/>
 
-    </head>
-    <body>
+function Home ( ){
+    const gifurl = "file:///C:/Users/Usuario/Desktop/love-i-love-you-gif.gif";
+
+    return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+
         <h1>Renata Souza, você é uma vencedora, te amo!! Bjs</h1>
-        <img src="love-i-love-you-gif"></img>
-    </body>
-</html>
-
-
-
-/////function Home ( ){
-  ////  return<h1>Renata Souza, você é uma vencedora, te amo!! Bjs</h1>
-    
-///}
-
-////export  default Home;
+        <img
+            src={gifUrl}
+            alt="Mensagem de amor"
+            style ={{ maxWidth: '100%, boarderRadius }}
+        </div>
+    );
+}
+export  default Home;
