@@ -5,7 +5,7 @@ function Home ( ){
     return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
 
-        <h1>Renata Souza, você é uma vencedora, te amo!! Bjs</h1>
+        <h1>Renata Souza, você é uma vencedora, te amo!!! Se me amas me dar um beijinho!</h1>
         
         <img
               
