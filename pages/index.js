@@ -1,19 +1,19 @@
 ///import gif from '..src/love-you.gif';
 
-function Home ( ){
+function Home() {
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>
+        Renata Souza, você é uma vencedora, te amo!!! Se me amas me dar um
+        beijinho!
+      </h1>
 
-    return (
-    <div style={{ textAlign: 'center', marginTop: '50px' }}>
-
-        <h1>Renata Souza, você é uma vencedora, te amo!!! Se me amas me dar um beijinho!</h1>
-        
-        <img
-              
-            src='/love-you.gif'
-            alt="Love You"
-            style ={{ maxWidth: '100%', borderRadius: '20px' }}
-        />
+      <img
+        src="/love-you.gif"
+        alt="Love You"
+        style={{ maxWidth: "100%", borderRadius: "20px" }}
+      />
     </div>
-    );
+  );
 }
-export  default Home;
+export default Home;
