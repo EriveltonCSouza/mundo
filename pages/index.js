@@ -8,7 +8,8 @@ function Home() {
         beijinho!
       </h1>
 
-      <img
+    
+          <img
         src="/love-you.gif"
         alt="Love You"
         style={{ maxWidth: "100%", borderRadius: "20px" }}
